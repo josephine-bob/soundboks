@@ -21,29 +21,37 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'soundboks' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+		<div class="site-branding" id="top-bar">
+                    <div id="sb-logo">
+                        <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/soundboks-black.png" alt="soundboks logo">
+                    </div>
+                
+                    <div id="menu-bar">
+                        <div id="location-menu">
+                            <ul id="location-items">
+                                <li class="menu-item"><a>US</a></li>
+                                <li class="menu-item"><a class="selected-item">EUROPE</a></li>
+                            </ul>
+                        </div>
 
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
+                        <div id="pages-menu">
+                            <ul id="pages-items">
+                                <li class="menu-item"><a href="index.php" class="selected-item">SPEAKER</a></li>
+                                <li class="menu-item"><a href="index.php">SHOP</a></li>
+                                <li class="menu-item"><a href="index.php">SUPPORT</a></li>
+                            </ul>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'soundboks' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+                        </div>
+                        <div id="cart-logo">
+                            <div id="full-cart"></div>
+                            <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/cart-full-black.png" alt="cart logo">
+                        </div>
+                    </div>
+                    
+                </div>
+		
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

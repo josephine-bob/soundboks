@@ -69,16 +69,16 @@ header{
     margin: auto
 }
 
-header div {
+header div{
     display: flex;
     justify-content: space-around;
-    align-items: bottom;
 }
 
 #menu-bar li { 
     display : inline;
     padding : 0 0.5em;
 }
+
 
 #menu-bar li a{
     font-size: 17.9px;
@@ -118,6 +118,10 @@ list-style-type : none;
   margin-right: 0.2em;
 }
 
+.not-desktop{
+    display: none;
+}
+
 /*--------------------------------------------------------------
 # content
 --------------------------------------------------------------*/
@@ -132,7 +136,16 @@ list-style-type : none;
 # Responsive design
 --------------------------------------------------------------*/
 @media (max-width: 700px) {
-    #menu-bar{
+    #pages-menu, #location-menu{
         display: none;
+    }
+    
+    .not-desktop{
+        display: flex;
+        margin-top: 0.6em;
+    }
+    
+    .mobile-part{
+        justify-content: space-around;
     }
 }

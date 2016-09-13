@@ -24,7 +24,10 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding" id="top-bar">
-                    <div id="sb-logo">
+                    <div class="mobile-part not-desktop">
+                        <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/toggle-menu-icon.png" alt="mobile menu">
+                    </div>
+                    <div id="sb-logo" class="mobile-part">
                         <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/soundboks-black.png" alt="soundboks logo">
                     </div>
                 
@@ -44,7 +47,7 @@
                             </ul>
 
                         </div>
-                        <div id="cart-logo">
+                        <div id="cart-logo" class="mobile-part">
                             <div id="full-cart"></div>
                             <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/cart-full-black.png" alt="cart logo">
                         </div>

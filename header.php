@@ -25,22 +25,22 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding" id="top-bar">
                     <div class="mobile-part not-desktop">
-                        <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/toggle-menu-icon.png" alt="mobile menu">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/toggle-menu-icon.png" alt="mobile menu">
                     </div>
-                    <div id="sb-logo" class="mobile-part">
-                        <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/soundboks-black.png" alt="soundboks logo">
+                    <div class="sb-logo mobile-part">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/soundboks-black.png" alt="soundboks logo">
                     </div>
                 
-                    <div id="menu-bar">
-                        <div id="location-menu">
-                            <ul id="location-items">
+                    <div class="menu-bar">
+                        <div class="location-menu">
+                            <ul class="location-items">
                                 <li class="menu-item"><a>US</a></li>
                                 <li class="menu-item"><a class="selected-item">EUROPE</a></li>
                             </ul>
                         </div>
 
-                        <div id="pages-menu">
-                            <ul id="pages-items">
+                        <div class="pages-menu">
+                            <ul class="pages-items">
                                 <li class="menu-item"><a href="index.php" class="selected-item">SPEAKER</a></li>
                                 <li class="menu-item"><a href="index.php">SHOP</a></li>
                                 <li class="menu-item"><a href="index.php">SUPPORT</a></li>
@@ -49,7 +49,7 @@
                         </div>
                         <div id="cart-logo" class="mobile-part">
                             <div id="full-cart"></div>
-                            <img src="http://localhost/mysite/wp-content/themes/soundboks_case/images/cart-full-black.png" alt="cart logo">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/cart-full-black.png" alt="cart logo">
                         </div>
                     </div>
                     

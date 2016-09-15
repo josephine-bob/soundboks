@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
             <div id="footer-content">
-                <div id="bottom-menu">
+                <div id="bottom-menu" class="margin-needed">
                     <div class="sb-logo not-mobile">
                         <img src="<?php bloginfo('template_directory'); ?>/images/soundboks-black.png" alt="soundboks logo">
                     </div>    
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div id="other-options">
+                <div id="other-options" class="margin-needed">
                     <div id="left-column-footer" class="not-mobile">
                         <div id="sign-up">
                             GET LATEST NEWS AND OFFERS
@@ -59,11 +59,11 @@
                     </div>
                 </div>
 
-                <div id="address" class="not-mobile">
+                <div id="address" class="margin-needed not-mobile">
                     1298 Cuernavaca Circulo <br/>
                     94040 Mountain View, California, USA
                 </div>
-                <div id="legal-info" class="not-mobile">
+                <div id="legal-info" class="margin-needed not-mobile">
                     <div id="copyright">
                         © 2016 SOUNDBOKS, Inc.
                     </div>    

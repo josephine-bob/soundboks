@@ -65,14 +65,16 @@ ul{
     display: none !important;
 }
 
-/*--------------------------------------------------------------
-# header and footer
---------------------------------------------------------------*/
-#top-bar, #footer-content{
+#top-bar, #top-bar-cart, #footer-content, #products-in-cart{
     width: 100%;
     max-width: 800px;
     margin: auto;
 }
+
+
+/*--------------------------------------------------------------
+# header and footer
+--------------------------------------------------------------*/
 
 header div, footer div{
     display: flex;
@@ -237,24 +239,80 @@ ul.menu-bar {
 
 
 /*--------------------------------------------------------------
-# content
+# cart content
 --------------------------------------------------------------*/
+#top-bar-cart, #delivery-info, #cart-icon, .one-delivery-info, .product-in-cart{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart-word{
+    font-size: 40px;
+    margin-left: 4px;
+}
 
 
+.small-info{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.gray-line{
+    background-color: #dddddd;
+    height: 1px;
+    display: block;
+}
+
+.title-product{
+    font-size: 20px;
+}
+
+.description-product{
+    font-size: 16px;
+    font-family: ConduitITC-Light;
+}
+
+.quantity-product{
+    align-items: center;
+}
+
+.product-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rotate-image{
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+#top-bar-cart{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.product-in-cart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /*--------------------------------------------------------------
 # Responsive design
 --------------------------------------------------------------*/
-@media (max-width: 800px){
-    #cart-logo{
+@media (max-width: 820px){
+    #cart-logo, #delivery-info{
         margin-right: 10px;
     }
     
-    #sb-logo-header{
+    #sb-logo-header, #cart-icon{
         margin-left: 10px;
     }
     
-    #bottom-menu, #other-options, #address, #legal-info{
+    .margin-needed {
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -299,7 +357,7 @@ ul.menu-bar {
         align-items: center;
     }
     
-    #other-options{
+    #other-options, #top-bar-cart{
         justify-content: center;
     }
     

@@ -32,16 +32,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 page{
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative
+    
 }
 
 body{
     font-family: ConduitITC-Bold;
+    margin: 0;
 }
 
 a{
@@ -56,7 +52,13 @@ a{
 }
 
 img{
-    height: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
 }
 
 .not-desktop{
@@ -69,7 +71,7 @@ img{
 #top-bar, #footer-content{
     width: 100%;
     max-width: 800px;
-    margin: auto
+    margin: auto;
 }
 
 header div, footer div{
@@ -77,6 +79,10 @@ header div, footer div{
     justify-content: space-between;
 }
 
+.menu-bar{
+    align-items: center;
+    justify-content: space-between;
+}
 
 .menu-bar li { 
     display : inline;
@@ -94,6 +100,14 @@ header div, footer div{
 /*--------------------------------------------------------------
 # header
 --------------------------------------------------------------*/
+#top-bar{
+    margin-top: 10px;
+}
+
+.pages-menu{
+    padding-left: 80px;
+}
+
 .location-menu li:first-child:after {
     content: " | ";
     color: rgba(151, 151, 151, 0.2);
@@ -110,21 +124,34 @@ ul.menu-bar {
     color: #f47c60 !important;
 }
 
-#cart-logo img{
-   margin-top: 0.6em;
-}
 
 #full-cart {
-  width: 9px;
-  height: 9px;
-  background-color: #f47c60;
-  border-radius: 50%;
-  position: absolute;
-  margin-top: 0.6em;
-  margin-left: 0.4em;
+    width: 9px;
+    height: 9px;
+    background-color: #f47c60;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 6px;
 }
 
+.blue-banner{
+    background-color: rgba(74, 143, 226, 0.9);
+    height: 72.4px;
+    line-height: 72.4px;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+}
 
+.blue-message{
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.close-banner{
+    margin-bottom: 10px;
+}
 /*--------------------------------------------------------------
 # footer
 --------------------------------------------------------------*/
@@ -218,14 +245,32 @@ ul.menu-bar {
 /*--------------------------------------------------------------
 # Responsive design
 --------------------------------------------------------------*/
+@media (max-width: 800px){
+    #cart-logo{
+        margin-right: 10px;
+    }
+    
+    #sb-logo-header{
+        margin-left: 10px;
+    }
+    
+    #bottom-menu, #other-options, #address, #legal-info{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media (max-width: 700px) {
     .pages-menu, .location-menu{
         display: none;
     }
     
     header .not-desktop{
-        display: flex !important;
-        margin-top: 0.6em;
+        display: inherit !important;
+    }
+    
+    .blue-banner{
+        margin-top: 20px;
     }
     
     #bottom-menu .not-desktop{
@@ -241,16 +286,17 @@ ul.menu-bar {
         display: none !important;
     }
     
-    .mobile-part{
+    .mobile-part-header{
         justify-content: space-around;
     }
     
-    #full-cart{
-        margin-left: 0px;
+    #menu-mobile{
+        margin-left: 10px;
     }
     
     #footer-content{
         background-color: rgba(0, 0, 0, 0.03); 
+        align-items: center;
     }
     
     #other-options{
@@ -259,5 +305,9 @@ ul.menu-bar {
     
     #some-logo{
         justify-content: space-around;
+    }
+    
+    #payment-logo{
+        margin-top: 20px;
     }
 }

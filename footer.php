@@ -77,18 +77,21 @@
                 <div id="love-message">MADE WITH LOVE AND LOUD MUSIC IN COPENHAGEN</div>
             </div>
             
-            <div id="conditions" class="not-desktop">
-                <div>
+            <div id="delivery-info-footer" class="not-desktop">
+                <div class="one-delivery-info">
                     <img src="<?php bloginfo('template_directory'); ?>/images/return-icon.png" alt="return icon">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/extreme-volume-copy.png" alt="30 days return">
+                    <div class="small-info">30 DAYS <br/>
+                        RETURN</div>
                 </div>
-                <div>
+                <div class="one-delivery-info">
                     <img src="<?php bloginfo('template_directory'); ?>/images/materials.png" alt="materials">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/design-copy.png" alt="2 years warranty">
+                    <div class="small-info">2 YEARS <br/>
+                        WARRANTY</div>
                 </div>
-                <div>
-                    <img src="<?php bloginfo('template_directory'); ?>/images/shipping-icon.png" alt="plane">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/battery-copy.png" alt="worldwide shipping">
+                <div class="one-delivery-info">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/shipping-icon.png" alt="shipping icon">
+                    <div class="small-info">WORLDWIDE <br/> 
+                        INSTANT SHIPPING</div>
                 </div>
             </div>
 	</footer><!-- #colophon -->

@@ -43,52 +43,84 @@ get_header(); ?>
                 <div class="product-in-cart margin-needed">
                     <div class="image-product">
                         <img src="<?php bloginfo('template_directory'); ?>/images/4.png" alt="soundboks">
+                        
                     </div>
                     <div class="product-column">
                         <div class="title-product">SOUNDBOKS PEAKER SYSTEM</div>
-                        <div class="description-product">Two BATTERYBOKS, AUX cable, 220V <br/>
-                            charge.</div>
-                        <div class="description-product">Shipping: 2-3 days.</div>
+                        <div class="description-product">
+                            Two BATTERYBOKS, AUX cable, 220V <br/>
+                            charge.
+                            <span class="not-desktop">Shipping: 2-3 days.</span></div>
+                        <div class="description-product not-mobile">Shipping: 2-3 days.</div>
                     </div>
-                    <div class="product-column">
+                    <div class="product-column price-info not-mobile">
                         €699.00
                     </div>
-                    <div class="product-column quantity-product">
+                    <div class="product-column quantity-product not-mobile price-info">
                         <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
                         3
-                        <img class="rotate-image" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
                     </div>
-                    <div class="product-column">
+                    <div class="product-column not-mobile price-info">
                         €2,796.00
                     </div>
-                    <div class="product-column">
+                    <div class="cross-product product-column">
                         <img src="<?php bloginfo('template_directory'); ?>/images/delete.png" alt="delete">
+                    </div>
+                </div>
+                <div class="price-mobile not-desktop">
+                    <div class="quantity-mobile">
+                        <img class="rotate-image90" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
+                        <div class="quantity">3</div>
+                        <img class="rotate-image270" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                    </div>
+                    <div class="product-column">    
+                        €699.00
+                    </div>
+                    <div class="product-column">
+                        TOTAL €2,796.00
                     </div>
                 </div>
                     <div class="gray-line"></div>
                 <div class="product-in-cart margin-needed">
                     <div class="image-product">
                         <img src="<?php bloginfo('template_directory'); ?>/images/4.png" alt="soundboks">
+                        
                     </div>
                     <div class="product-column">
                         <div class="title-product">SOUNDBOKS PEAKER SYSTEM</div>
-                        <div class="description-product">Two BATTERYBOKS, AUX cable, 220V <br/>
-                            charge.</div>
-                        <div class="description-product">Shipping: 2-3 days.</div>
+                        <div class="description-product">
+                            Two BATTERYBOKS, AUX cable, 220V <br/>
+                            charge.
+                            <span class="not-desktop">Shipping: 2-3 days.</span></div>
+                        <div class="description-product not-mobile">Shipping: 2-3 days.</div>
                     </div>
-                    <div class="product-column">
+                    <div class="product-column price-info not-mobile">
                         €699.00
                     </div>
-                    <div class="product-column quantity-product">
+                    <div class="product-column quantity-product not-mobile price-info">
                         <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
                         3
-                        <img class="rotate-image" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
                     </div>
-                    <div class="product-column">
+                    <div class="product-column not-mobile price-info">
                         €2,796.00
                     </div>
-                    <div class="product-column">
+                    <div class="cross-product product-column">
                         <img src="<?php bloginfo('template_directory'); ?>/images/delete.png" alt="delete">
+                    </div>
+                </div>
+                <div class="price-mobile not-desktop">
+                    <div class="quantity-mobile">
+                        <img class="rotate-image90" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
+                        <div class="quantity">3</div>
+                        <img class="rotate-image270" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                    </div>
+                    <div class="product-column">    
+                        €699.00
+                    </div>
+                    <div class="product-column">
+                        TOTAL €2,796.00
                     </div>
                 </div>
             </div>

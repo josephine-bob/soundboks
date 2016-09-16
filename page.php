@@ -190,6 +190,95 @@ get_header(); ?>
                 </div>
             </div>
             
+            <div class="gray-line not-mobile"></div>
+            
+            <div id="interested" class="not-mobile">
+                YOU MIGHT ALSO BE INTERESTED IN...
+            </div>
+            
+            <div id="interested-items" class="not-mobile">
+                <div class="line-proposed-product">
+                    <div class="proposed-item flex-between">
+                        <div class="image-product">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        </div>
+                        <div class="product-column">
+                            <div>
+                                <div class="title-product">NUCLEAR PACKAGE</div>
+                                <div class="description-product">
+                                    Charge your phone up to 6 <br/>
+                                    times on a single charge.
+                                </div>
+                            </div>
+                            <div class="price-info">$1,340</div>
+                            <div>
+                                <div class="pay-product">PAY FROM €30/MONTH</div>
+                                <div class="klarna">read about Klarna</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proposed-item flex-between">
+                        <div class="image-product">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        </div>
+                        <div class="product-column">
+                            <div>
+                                <div class="title-product">NUCLEAR PACKAGE</div>
+                                <div class="description-product">
+                                    Charge your phone up to 6 <br/>
+                                    times on a single charge.
+                                </div>
+                            </div>
+                            <div class="price-info">$1,340</div>
+                            <div>
+                                <div class="pay-product">PAY FROM €30/MONTH</div>
+                                <div class="klarna">read about Klarna</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-proposed-product">
+                    <div class="proposed-item flex-between">
+                        <div class="image-product">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        </div>
+                        <div class="product-column">
+                            <div>
+                                <div class="title-product">NUCLEAR PACKAGE</div>
+                                <div class="description-product">
+                                    Charge your phone up to 6 <br/>
+                                    times on a single charge.
+                                </div>
+                            </div>
+                            <div class="price-info">$1,340</div>
+                            <div>
+                                <div class="pay-product">PAY FROM €30/MONTH</div>
+                                <div class="klarna">read about Klarna</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proposed-item flex-between">
+                        <div class="image-product">
+                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        </div>
+                        <div class="product-column">
+                            <div>
+                                <div class="title-product">NUCLEAR PACKAGE</div>
+                                <div class="description-product">
+                                    Charge your phone up to 6 <br/>
+                                    times on a single charge.
+                                </div>
+                            </div>
+                            <div class="price-info">$1,340</div>
+                            <div>
+                                <div class="pay-product">PAY FROM €30/MONTH</div>
+                                <div class="klarna">read about Klarna</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             <div class="gray-line"></div>
             
 	</div><!-- #primary -->

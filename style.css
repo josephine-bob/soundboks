@@ -60,7 +60,7 @@ ul{
     display: none !important;
 }
 
-#top-bar, #top-bar-cart, #footer-content, #products-in-cart, #order-info{
+#top-bar, #top-bar-cart, #footer-content, #products-in-cart, #order-info, #interested-items{
     width: 100%;
     max-width: 800px;
     margin: auto;
@@ -394,6 +394,30 @@ ul.menu-bar {
 
 #pay-little{
     color: #f47c60;
+}
+
+#interested{
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    width: 290px;
+    margin: auto;
+}
+
+.klarna{
+    color: #0074cb;
+    font-size: 12px;
+}
+
+.pay-product{
+    opacity: 0.3;
+}
+
+.line-proposed-product{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*--------------------------------------------------------------

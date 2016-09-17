@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
             <div id="top-bar-cart" class="flex-between">
                 <div id="cart-icon" class="flex-between">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/big-cart-icon.png" alt="cart icon">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/big-cart-icon.svg" alt="cart icon">
                     <div id="cart-word">CART</div>
                 </div>
                 <div id="delivery-info" class="not-mobile flex-between">
@@ -48,7 +48,7 @@ get_header(); ?>
                     <div class="product-column">
                         <div class="title-product">SOUNDBOKS PEAKER SYSTEM</div>
                         <div class="description-product">
-                            Two BATTERYBOKS, AUX cable, 220V <br/>
+                            Two BATTERYBOKS, AUX cable, 220V
                             charge.
                             <span class="not-desktop">Shipping: 2-3 days.</span></div>
                         <div class="description-product not-mobile">Shipping: 2-3 days.</div>
@@ -57,9 +57,9 @@ get_header(); ?>
                         €699.00
                     </div>
                     <div class="product-column quantity-product not-mobile price-info">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.svg" alt="plus one">
                         3
-                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.svg" alt="minus one">
                     </div>
                     <div class="product-column not-mobile price-info">
                         €2,796.00
@@ -90,7 +90,7 @@ get_header(); ?>
                     <div class="product-column">
                         <div class="title-product">SOUNDBOKS PEAKER SYSTEM</div>
                         <div class="description-product">
-                            Two BATTERYBOKS, AUX cable, 220V <br/>
+                            Two BATTERYBOKS, AUX cable, 220V
                             charge.
                             <span class="not-desktop">Shipping: 2-3 days.</span></div>
                         <div class="description-product not-mobile">Shipping: 2-3 days.</div>
@@ -99,9 +99,9 @@ get_header(); ?>
                         €699.00
                     </div>
                     <div class="product-column quantity-product not-mobile price-info">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="plus one">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.svg" alt="plus one">
                         3
-                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.png" alt="minus one">
+                        <img class="rotate-image180" src="<?php bloginfo('template_directory'); ?>/images/rectangle-95.svg" alt="minus one">
                     </div>
                     <div class="product-column not-mobile price-info">
                         €2,796.00
@@ -174,10 +174,12 @@ get_header(); ?>
                         </div>
                     </div>
                     <div id="update-price" class="flex-between">
-                        <div class="align-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/update-icon.png" alt="round arrows">
+                        <div class="flex-between">
+                            <div class="align-center">
+                                <img src="<?php bloginfo('template_directory'); ?>/images/update-icon.svg" alt="round arrows">
+                            </div>
+                            <div id="update-cart" class="align-center">UPDATE CART</div>
                         </div>
-                        <div id="update-cart" class="align-center">UPDATE CART</div>
                         <div id="checkout" class="align-center">CHECKOUT</div>
                     </div>
                     <div id="vat-price" class="payment-feature">INCl. 15% VAT 230,- DKK</div>

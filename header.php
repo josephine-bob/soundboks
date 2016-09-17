@@ -54,7 +54,7 @@
                     </div>
                     <div id="cart-logo" class="mobile-part">
                         <div id="full-cart"></div>
-                        <img src="<?php bloginfo('template_directory'); ?>/images/cart-full-black.png" alt="cart logo">
+                        <img src="<?php bloginfo('template_directory'); ?>/images/cart-full-black.svg" alt="cart logo">
                     </div>
                 </div>     
             </div>

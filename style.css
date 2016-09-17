@@ -272,6 +272,7 @@ ul.menu-bar {
 .description-product{
     font-size: 16px;
     font-family: ConduitITC-Light;
+    max-width: 220px;
 }
 
 .quantity-product{
@@ -366,6 +367,7 @@ ul.menu-bar {
 
 #update-cart{
     font-size: 20px;
+    margin-left: 10px;
 }
 
 #checkout{
@@ -609,6 +611,7 @@ ul.menu-bar {
         width:80%;
         margin: auto;
         margin-top: 10px;
+        justify-content: space-around;
     }
     
     #price-column{

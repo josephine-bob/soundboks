@@ -42,7 +42,7 @@ get_header(); ?>
             <div id="products-in-cart">
                 <div class="product-in-cart margin-needed flex-between">
                     <div class="image-product">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/4.png" alt="soundboks">
+                        <img srcset="<?php bloginfo('template_directory'); ?>/images/4.png 1x, <?php bloginfo('template_directory'); ?>/images/4@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/4@3x.png 3x" alt="soundboks">
                         
                     </div>
                     <div class="product-column">
@@ -84,7 +84,7 @@ get_header(); ?>
                     <div class="gray-line"></div>
                 <div class="product-in-cart margin-needed flex-between">
                     <div class="image-product">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/4.png" alt="soundboks">
+                        <img srcset="<?php bloginfo('template_directory'); ?>/images/4.png 1x, <?php bloginfo('template_directory'); ?>/images/4@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/4@3x.png 3x" alt="soundboks">
                         
                     </div>
                     <div class="product-column">
@@ -201,8 +201,8 @@ get_header(); ?>
             <div id="interested-items" class="not-mobile">
                 <div class="line-proposed-product">
                     <div class="proposed-item flex-between">
-                        <div class="image-product">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        <div class="image-product-suggest">
+                            <img srcset="<?php bloginfo('template_directory'); ?>/images/item-img.png 1x, <?php bloginfo('template_directory'); ?>/images/item-img@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/item-img@3x.png 3x" alt="microphone">
                         </div>
                         <div class="product-column">
                             <div>
@@ -220,8 +220,8 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="proposed-item flex-between">
-                        <div class="image-product">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        <div class="image-product-suggest">
+                            <img srcset="<?php bloginfo('template_directory'); ?>/images/item-img.png 1x, <?php bloginfo('template_directory'); ?>/images/item-img@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/item-img@3x.png 3x" alt="microphone">
                         </div>
                         <div class="product-column">
                             <div>
@@ -241,8 +241,8 @@ get_header(); ?>
                 </div>
                 <div class="line-proposed-product">
                     <div class="proposed-item flex-between">
-                        <div class="image-product">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        <div class="image-product-suggest">
+                            <img srcset="<?php bloginfo('template_directory'); ?>/images/item-img.png 1x, <?php bloginfo('template_directory'); ?>/images/item-img@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/item-img@3x.png 3x" alt="microphone">
                         </div>
                         <div class="product-column">
                             <div>
@@ -260,8 +260,8 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="proposed-item flex-between">
-                        <div class="image-product">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/item-img.png" alt="microphone">
+                        <div class="image-product-suggest">
+                            <img srcset="<?php bloginfo('template_directory'); ?>/images/item-img.png 1x, <?php bloginfo('template_directory'); ?>/images/item-img@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/item-img@3x.png 3x" alt="microphone">
                         </div>
                         <div class="product-column">
                             <div>

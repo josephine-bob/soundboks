@@ -624,3 +624,37 @@ ul.menu-bar {
         margin-right: auto;
     }
 }
+
+
+/*--------------------------------------------------------------
+# Retina display
+--------------------------------------------------------------*/
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+    .image-product img{
+        width: 108px; 
+    }
+    
+    .image-product-suggest img{
+        width: 220px; 
+    }
+    
+    .payment-logo img{
+        width: 186px;
+    }
+}
+
+@media only screen and (-o-min-device-pixel-ratio: 9/4),
+       only screen and (-webkit-min-device-pixel-ratio: 2.25),
+       only screen and (min-device-pixel-ratio: 2.25),
+       only screen and (min-resolution: 2.25dppx) {
+    .image-product img{
+        width: 108px; 
+    }
+    
+    .image-product-suggest img{
+        width: 220px; 
+    }
+}

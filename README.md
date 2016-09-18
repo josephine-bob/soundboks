@@ -1,6 +1,6 @@
 SOUNDBOKS theme for the case by Josephine
 
-Step 1 is mostly done (some small details are not perfect), step 2 partially (svg images for the small icons, missing the replacement by @2x images)
+Step 1 is mostly done (some small details are not perfect), step 2 as well (missing some image file in higher resolution - social media and SOUNDBOKS logo)
 
 The theme will display the cart page when applied to a blank page in Wordpress. 
 It is based on the 3 templates "header", "page", and "footer", which are built to look like the design.

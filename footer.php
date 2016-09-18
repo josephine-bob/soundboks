@@ -53,8 +53,8 @@
                             <img src="<?php bloginfo('template_directory'); ?>/images/instagram.png" alt="instagram">
                             <img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="twitter">
                         </div>
-                        <div id="payment-logo">
-                            <img src="<?php bloginfo('template_directory'); ?>/images/payments-checkouts.png" alt="payments methodes">
+                        <div class="payment-logo">
+                            <img srcset="<?php bloginfo('template_directory'); ?>/images/payments-checkouts.png 1x, <?php bloginfo('template_directory'); ?>/images/payments-checkouts@2x.png 2x, <?php bloginfo('template_directory'); ?>/images/payments-checkouts@3x.png 3x" alt="payments methodes">
                         </div>
                     </div>
                 </div>
